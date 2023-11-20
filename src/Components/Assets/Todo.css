@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: "Poppins",sans-serif;
+}
+:root{
+    --red:#d01c28;
+    --grey:#2e2e2e;
+}
+* {
+    margin:0;
+}
+.todo{
+    width:600px;
+    min-height:732px;
+    border-radius:20px;
+    background:#fff;
+    margin:auto;
+    margin-top:174px;
+    display:flex;
+    flex-direction:column;
+    padding:0px 44px;
+    padding-bottom:30px;
+    margin-bottom:100px;
+
+}
+.Todo_header{
+    margin-top:84px;
+    color:#002765;
+    font-size:36px;
+    font-weight:600;
+    line-height:34px;
+}
+.todoAdd{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:45px;
+}
+.todoInput{
+    border-radius:50px;
+    background: #edeefe;
+    border:none;
+    outline:none;
+    width:576px;
+    height:80px;
+    padding-left:35px;
+    font-size:20px;
+}
+.todo-add-btn{
+    border-radius:50px;
+    background: #ff6729;
+    width:87px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:-100px;
+    color:#fff;
+    font-size:26px;
+    font-weight:600;
+    cursor:pointer;
+}
+.nav{
+    /* display: flex; */
+    justify-content: space-between;
+    height:72px;
+    /* align-items: center; */
+}
+.navul{
+    display: flex;
+    list-style:none;
+    gap:24px;
+
+}
+.navbtn{
+    all:unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    font-weight: 500;
+    color:#fff;
+}
+.Hero{
+    display:flex;
+    height:calc(100vh -72px);
+}
+.Hero h1{
+    font-weight:800;
+    line-height: 102px;
+    font-size:108px;
+}
+.Hero p{
+    font-weight: 400;
+    color:var(--grey);
+}
+.container{
+    margin:0 auto;
+    max-width:1280px;
+}
+.hero-btn{
+    display: flex;
+    gap:40px;
+}
+.hero-btn Button{
+    font-size:24px;
+}
+.secondary-btn{
+    background: transparent;  
+    border:1px solid gray;
+    color:var(--grey)
+}
+.shopping{
+    font-size:14px;
+    margin-bottom: 8px;
+}
+.brand-icons{
+    display:flex;
+    gap:16px;
+}
+.Hero-content{
+    display:flex;
+    flex-direction:column;
+    gap:36px;
+}
+
+
+
+
