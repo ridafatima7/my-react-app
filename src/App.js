@@ -10,6 +10,10 @@ import ProHero from './Components/ProHero';
 import Form from './Components/PractiseForm'
 import Cnav from './Components/Cnav';
 import Cheader from './Components/Cheader';
+import Rnav from './Components/Rnav';
+import Bnavbar from './Components/Bnavbar';
+import Bproject from './Components/Bproject';
+import Products from './Components/Products';
 function App() {
   return (
     <div className="App">
@@ -17,8 +21,11 @@ function App() {
         
       </header> */}
       {/* <Navbar /> */}
-      <Cnav />
-      <Cheader />
+      {/* <Bnavbar /> */}
+      {/* <Bproject /> */}
+      <Products />
+      {/* <Cnav />
+      <Cheader /> */}
       {/* <Form /> */}
       {/* <Project />
       <ProHero /> */}
