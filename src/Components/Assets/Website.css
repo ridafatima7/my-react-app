@@ -1,0 +1,38 @@
+:root{
+    --grey:#2e2e2e;
+}
+.Container{
+    background-color: #d9f2e4;
+    color:#2e2e2e;
+}
+.information{
+    font-family: Poppins;
+    text-align: center;
+    display:inline-block;
+}
+.cbody{
+    font-family: Poppins;
+    text-align: center;
+    color:#2e2e2e;
+
+}
+.cicon{
+    background-color: #2e2e2e;
+        /* border: 1px solid pink; */
+        color:white;
+        /* box-shadow: 0 4px 8px rgba(255, 182, 193, 0.5); */
+        justify-content: center;
+        border-radius: 40px;
+        align-items: center;
+        height: 80px;
+        width:80px;
+}
+.rbutton{
+    background-color:#323334;
+    margin-right: 410px;
+    border-radius: 0;
+}
+.f-block {
+    width: 80%;
+    height: 80%;
+  }

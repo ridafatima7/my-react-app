@@ -14,6 +14,8 @@ import Rnav from './Components/Rnav';
 import Bnavbar from './Components/Bnavbar';
 import Bproject from './Components/Bproject';
 import Products from './Components/Products';
+import Webnav from './Components/Webnav';
+import Website from './Components/Website';
 function App() {
   return (
     <div className="App">
@@ -23,7 +25,9 @@ function App() {
       {/* <Navbar /> */}
       {/* <Bnavbar /> */}
       {/* <Bproject /> */}
-      <Products />
+      {/* <Products /> */}
+      <Webnav />
+      <Website />
       {/* <Cnav />
       <Cheader /> */}
       {/* <Form /> */}
