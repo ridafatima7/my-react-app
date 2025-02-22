@@ -16,7 +16,18 @@ import Bproject from './Components/Bproject';
 import Products from './Components/Products';
 import Webnav from './Components/Webnav';
 import Website from './Components/Website';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes,Router,Switch, Redirect } from "react-router-dom";
+
 function App() {
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+
+  root.render(
+   <Routes>
+      <Route path="/about" render={(props) => <Bproject {...props} />} />
+      <Route path="/FAQs" render={(props) => <Cheader {...props} />} />
+      </Routes>
+);
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -26,6 +37,7 @@ function App() {
       {/* <Bnavbar /> */}
       {/* <Bproject /> */}
       {/* <Products /> */}
+      
       <Webnav />
       <Website />
       {/* <Cnav />

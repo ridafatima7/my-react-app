@@ -10,12 +10,16 @@ const Webnav = () => {
       <Container fluid >
       <Nav className="mr-auto" navbar bg="light"> 
            <NavbarBrand href="/"><img src={Logo} alt="Logo" fluid /></NavbarBrand> 
-                <NavItem style={{ marginLeft:'320px',fontFamily:'Poppins'}} className='pt-2'> 
-                    <NavLink href="#">AboutUs</NavLink> 
-                </NavItem> 
-                <NavItem className='pt-2' style={{ fontFamily:'Poppins'}}  > 
-                    <NavLink href="#">Ordinaryoucs</NavLink> 
-                </NavItem> 
+           <NavItem style={{ marginLeft: '320px', fontFamily: 'Poppins' }} className='pt-2'>
+           <Link to="/about" className="nav-link">
+               About Us
+           </Link>
+           </NavItem>
+           <NavItem className='pt-2' style={{ fontFamily: 'Poppins' }}>
+            <Link to="/FAQs" className="nav-link">
+                Ordinaryoucs
+            </Link>
+         </NavItem>
                 <NavItem className='pt-2' style={{fontFamily:'Poppins'}} > 
                     <NavLink href="#">FAQs</NavLink> 
                 </NavItem> 
